@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+.continer{
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.nav-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.nav-opction ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #6c6c6c;
+    font-size: 12px;
+
+}
+.nav-opction a{
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    opacity: 1;
+    font-family: Poppins, sans-serif;
+    color: #6c6c6c;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.nav-opction li img{
+    height: 70px;
+    
+}
+.nav-opction li input::placeholder{
+    padding-left: 5px;
+    font-family: Poppins, sans-serif;
+    color: #6c6c6c;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: right;
+}
+.nav-opction li input{
+    border: none;
+    outline: none;
+    width: 114px;
+}
+
+
+.nav-opction li{
+    list-style: none;
+    
+}
+.header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#active{
+    color: #000080;
+}
+.nav-opction a:hover{
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.hero-con{
+    padding-top:150px;
+    padding-bottom: 90px;
+    height:100vh;
+    width: 100%;
+    display: flex;
+}
+
+.text-header{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.lan-14{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.lan-12{
+    font-size: 12px;
+}
+h1{
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 500;
+    margin-top:20px;
+    
+}
+h2{
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 500;
+    margin-top:20px;
+}
+h4{
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+    color: #6c6c6c;
+    font-weight: 400;
+}
+h3{
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top:20px;
+}
+.text-con p{
+    color: #000080;
+}
+span{
+    position: relative;
+    font-family: 'Playfair Display', sans-serif;
+    color: #000080;
+    font-size: 68px;
+    line-height: 68px;
+    font-weight: 400;
+}
+.b{
+    /* padding: 20px 40px; */
+    border-radius: 0px;
+    border: none;
+    background-color: #000080;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    line-height: 22px;
+    width:203px;
+    height:62px;
+}
+
+.b a{
+    font-size: 12px;
+    border: 1px none #fff;
+    transition: all 400ms ease;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.photo{
+    width: 1000px;
+    height: 500px;
+    margin-left: -196px;
+    background-image:url(./hero-img.png);
+    background-position: 50% 50%;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+}
+
+#product{
+    width: 100%;
+}
+
+.product-con{
+    position: relative;
+    padding: 120px 0px;
+    border-top-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.product-heading{
+    height: 118px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.product-heading p{
+    color: #000080;
+}
+.product-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pottery{
+     display: flex;
+     justify-content: space-between;
+}
+.pottery-item{
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.2s;  
+}
+
+.one{
+    background-color: #FF9933
+
+}
+.two{
+    background-color: #64616145;
+
+
+}
+.three{
+    background-color: #138808;
+}
+.pottery a{
+    color: #fff;
+    text-decoration: none;
+}
+.dec-img{
+    height: 70px;
+    width: 70px;
+}
+.dec-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.protterys-dec{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.prottery-dec{
+    width: 509px;
+}
+
+
+
+/* `````````all-product````````` */
+.all-product{
+    padding: 120px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.product-box{
+    height: 339px;
+    width: 290px;
+    padding: 31px;
+    border: 2px solid #fff;
+    position: relative;
+    cursor: pointer;
+
+    /* background-color: #138808; */
+}
+.product-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.pro-img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.pro-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.all-product h4{
+    font-weight: 600;
+    margin: 10px 0;
+    color: black;
+}
+.all-product h5{
+    font-size: 14px;
+    font-weight: 600;
+    color: #138808;
+}
+.heart{
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    color: #6c6c6c;
+}
+.p{
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 100px 0;
+    position: relative;
+}
+
+.footer-heading{
+    text-align: center;
+
+}
+.footer-heading p{
+    margin-top: 20px;
+    color: #6c6c6c;
+}
+.fotter-img{
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+}
+.fotter-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.footer-items p{ 
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.footer-opction{
+    margin: 45px 0  ;
+    padding-bottom:100px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+  height: 100px;
+  width: 100%;  
+  position: absolute;
+  background-color: #6c6c6c;
+}
